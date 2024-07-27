@@ -20,12 +20,13 @@ button {
     border: 1px solid var(--text-highlight);
     
     &:hover, &:focus {
-      color: #f3541c;
+      color: #E43a12;
       outline: .25rem solid var(--surface-secondary);
     }
   }
 }
 
+/*CHECK*/
 
 
 

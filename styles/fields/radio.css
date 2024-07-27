@@ -38,9 +38,9 @@ label + .radio-wrapper {
   }
     &:hover, &:focus-within {
       border: 1px solid var(--stroke-highlight);
-      cursor: pointer;
+
       & .radio-image {
-        background-image: url(../../assets/icons/radio-hover.svg)
+        background-image: url(../../assets/icons/radio-hover.svg);
       }
     }
 
@@ -52,3 +52,4 @@ label + .radio-wrapper {
     }
   }
 }
+/*check*/

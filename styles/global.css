@@ -15,8 +15,8 @@
   --text-highlight: #E43A12;
 
   --surface-primary: #ffffff;
-  --surface-secondary: #fee7d6;
-  --surface-disabled: #e7e5e4;
+  --surface-secondary: #FEE7D6;
+  --surface-disabled: #E7E5E4;
 
   --stroke-default: #d6d3d1;
   --stroke-highlight: #f3541c;
@@ -49,3 +49,5 @@ img {
 .flex-2 {
   flex: 2;
 }
+
+/*check*/

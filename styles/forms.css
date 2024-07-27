@@ -6,6 +6,7 @@ form {
 
 fieldset {
   border: none;
+  
   display: grid;
   gap: 1.5rem;
 }
@@ -24,3 +25,5 @@ fieldset + fieldset {
   display: flex;
   gap: 1rem;
 }
+
+/*check*/
