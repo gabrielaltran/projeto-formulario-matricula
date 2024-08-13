@@ -87,7 +87,13 @@ input {
     display: none;
   }
 }
-/*check*/
+
+@media (width <= 22.5rem) {
+  .flex {
+    flex-direction: column;
+  }
+}
+
 
 
 

@@ -50,4 +50,9 @@ img {
   flex: 2;
 }
 
-/*check*/
+@media (width <= 22.5rem) {
+  body {
+    display: flex;
+    overflow: auto;
+  }
+}

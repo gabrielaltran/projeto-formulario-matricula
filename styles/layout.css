@@ -49,4 +49,37 @@ aside {
     }
   }
 }
-/*check*/
+
+@media (width <= 22.5rem) {
+  #app {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: none;
+  }
+
+  aside {
+    display: flex;
+    padding: 0;
+    & h2, & span, & p {
+      display: none;
+    }
+
+    & .aside-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 24px;
+
+      & img:nth-child(2) {
+        margin: 0;
+        width: 312px;
+        height: 232px;
+      }
+    }
+  }
+
+  main {
+    gap: 3rem;
+    padding: 1.5rem;
+  }
+}
