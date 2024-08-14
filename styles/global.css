@@ -23,10 +23,15 @@
   --semantic-error: #dc2626;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow: hidden;
   font: var(--text);
   color: var(--text-secondary);
+  scroll-behavior: smooth;
 }
 
 h1, h2 {
@@ -50,9 +55,8 @@ img {
   flex: 2;
 }
 
-@media (width <= 22.5rem) {
+@media (width <= 23.4375rem) {
   body {
     display: flex;
-    overflow: auto;
   }
 }

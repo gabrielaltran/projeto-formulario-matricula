@@ -4,6 +4,7 @@
 
   height: 100vh;
   overflow: hidden;
+
 }
 
 main {
@@ -50,16 +51,17 @@ aside {
   }
 }
 
-@media (width <= 22.5rem) {
+@media (width <= 23.4375rem) {
   #app {
     display: flex;
     flex-direction: column-reverse;
-    overflow: none;
   }
 
   aside {
     display: flex;
     padding: 0;
+    overflow: visible;
+
     & h2, & span, & p {
       display: none;
     }
